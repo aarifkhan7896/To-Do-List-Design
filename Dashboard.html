@@ -1,0 +1,156 @@
+<!Doctype html>
+<html>
+    
+    <head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tralala Board</title>
+                <link rel="stylesheet" type="text/css" href="style.css" />
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+                <link rel="stylesheet" type="text/css" href="reset.css" />
+    </head>
+    
+    <body class="main">
+        
+        
+        <nav class="navbar">
+            
+            <ul class="menu">
+                <li class="pointer">
+                    <i class="home fas fa-home"></i>
+                </li>
+                <li class="pointer">
+                    <i class="boards fas fa-th-list"></i>
+                    Boards
+                </li>
+                <li class="menu-input">
+                    <input type="text" />
+                </li>
+            </ul>
+            
+            
+                <div class="app-title">Tralala</div>
+            
+                <div class="actions">
+                    <span class="pointer"><i class="fas fa-plus" id="add-board"></i></span>
+                    <span class="pointer"><i class="fas fa-user" id="profile-image"></i></span>
+                </div>
+        </nav>
+            
+            <div class="board-container">
+                
+                <div class="board-menu">
+                    <div class="board-title">Web Development</div>
+                    <div class="board-show-menu pointer">
+                    <i class="fas fa-ellipsis-v"></i>
+                    Show menu
+                    </div>
+                </div>
+                
+            </div>
+        
+            <div class="board">
+            
+            
+             <div class="task-list-wrapper">
+                 
+	            <div class="list">
+
+		            <h3 class="list-title">To Do<div class="dot">...</div></h3>
+
+		            <ul class="list-items">
+		            	<li>
+                            <div class="task pointer">
+                            Complete mockup for client website
+                            <i class="task-edit fas fa-pencil-alt pointer"></i>
+                            </div>
+                        </li>
+		            	<li>
+                            <div class="task pointer">
+                            Email mockup to client for feedback
+                            <i class="task-edit fas fa-pencil-alt pointer"></i>
+                            </div>
+                        </li>
+		            </ul>
+
+		            <button class="add-card-btn bt">&#43; Add another card</button>
+
+	            </div>
+            
+	            <div class="list">
+
+		            <h3 class="list-title">Completed Task<div class="dot">...</div></h3>
+
+		            <ul class="list-items">
+		            	<li>
+                            Finalise requirements for client web design
+                        </li>
+		            </ul>
+                    <div class="add-card-form">
+                            <form>
+                                
+                                <textarea rows="3" placeholder="Enter a title for this card..." class="full-width-input"></textarea>
+                                
+                                <div class="add-card-form-actions">
+                                    <button class="btn btn-inline btn-primary add-card-button pointer">Add Card</button>
+                                    <i class="fas fa-2x fa-times add-card-cancel pointer"></i>
+                                </div>
+                                
+                            </form>
+                        </div>
+	            </div>
+                
+                 <div class="list">
+
+		            <h3 class="list-title">Concepts to Revise<div class="dot">...</div></h3>
+
+		            <ul class="list-items">
+                        <li>HTML Form Validation</li>
+                        <li>Advanced CSS</li>
+		            </ul>
+
+		            <button class="add-card-btn bt">&#43; Add another card</button>
+
+	            </div>
+                
+                 <div class="list">
+
+		            <h3 class="list-title">Concepts to Learn<div class="dot">...</div></h3>
+
+		            <ul class="list-items">
+		            	<li>HTML 5 New Features</li>
+                        <li>API's</li>
+                        <li>JavaScript</li>
+		            </ul>
+
+		            <button class="add-card-btn bt">&#43; Add another card</button>
+
+	            </div>
+
+	            <div class="list">
+
+	            	<h3 class="list-title">Done<div class="dot">...</div></h3>
+
+	            	<button class="add-card-btn bt">&#43; Add card</button>
+
+	            </div>
+
+	            <button class="add-list-btn bt">&#43; Add another list</button>
+                 
+                 <div class="list">
+
+	            	<form class="enter-list">
+                            <textarea rows="3" placeholder="Enter list title..." class="full-width-input"></textarea>
+                            <div class="add-list-form-actions">
+                                <button class="btn btn-inline btn-primary add-list-button pointer">Add List</button>
+                                <i class="fas fa-2x fa-times add-list-cancel pointer"></i>
+                             </div>    
+                    </form>
+
+	            </div>
+            </div>
+    
+        </div>
+     </body>
+</html>
