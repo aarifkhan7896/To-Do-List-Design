@@ -8,7 +8,7 @@
 .main {
     font-family: tahoma;
     font-size: 10px;
-    background-image: url("Raindrops.jpg");
+    background-image: url("../img/Raindrops.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
